@@ -1,0 +1,15 @@
+# requirements.txt
+
+# Core UI Framework
+PyQt5
+qt-material
+
+# Data Visualization
+pyqtgraph
+
+# Hot Reloading (for development)
+watchdog
+
+# Packaging Tool
+PyInstaller
+playsound==1.2.2
