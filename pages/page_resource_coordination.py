@@ -17,7 +17,7 @@ class PageResourceCoordination(QWidget):
         main_layout.setContentsMargins(20, 20, 20, 20)
         
         header_layout = QHBoxLayout()
-        header_layout.addWidget(QLabel("<h2>资源与物料协同 (MRP)</h2>"))
+        header_layout.addWidget(QLabel("<h2>安全信息管理 (MRP)</h2>"))
         header_layout.addStretch()
         run_mrp_button = QPushButton("重新运行MRP计算"); run_mrp_button.clicked.connect(self.run_mrp)
         header_layout.addWidget(run_mrp_button)

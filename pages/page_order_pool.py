@@ -18,7 +18,7 @@ class PageOrderPool(QWidget):
         main_layout.setContentsMargins(20, 20, 20, 20)
         
         controls = QHBoxLayout()
-        controls.addWidget(QLabel("<h2>订单池与需求管理</h2>")); controls.addStretch()
+        controls.addWidget(QLabel("<h2>安全订单需求管理</h2>")); controls.addStretch()
         add_button = QPushButton("＋ 新增订单"); add_button.clicked.connect(self._add_order)
         controls.addWidget(add_button)
         main_layout.addLayout(controls)

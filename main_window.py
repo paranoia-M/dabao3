@@ -11,7 +11,7 @@ class MainWindow(QMainWindow):
     def __init__(self, username, parent=None):
         super().__init__(parent)
         self.username = username
-        self.setWindowTitle("微喷带生产线智能排程与调度控制系统")
+        self.setWindowTitle("网络数据信息安全防火墙配置管理系统")
 
         self.logout_triggered = False
 
@@ -42,10 +42,10 @@ class MainWindow(QMainWindow):
     def populate_menu(self):
         """向侧边栏添加所有新主题的菜单项"""
         self.side_menu.add_menu_item("系统总览", "dashboard")
-        self.side_menu.add_menu_item("订单池与需求", "order_pool")
-        self.side_menu.add_menu_item("智能排程工作台", "scheduling_workbench")
+        self.side_menu.add_menu_item("安全订单需求", "order_pool")
+        self.side_menu.add_menu_item("安全排程管理", "scheduling_workbench")
         self.side_menu.add_menu_item("生产执行监控", "mes_cockpit")
-        self.side_menu.add_menu_item("资源与物料协同", "resource_coordination")
+        self.side_menu.add_menu_item("安全信息管理", "resource_coordination")
         self.side_menu.add_menu_item("质量与工艺追溯", "quality_traceability")
         self.side_menu.add_menu_item("绩效分析与KPI", "performance_kpi")
 

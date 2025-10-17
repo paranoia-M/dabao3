@@ -33,10 +33,10 @@ class LoginDialog(QDialog):
         layout.setContentsMargins(40, 40, 40, 40)
         
         # --- 4. 更新系统标题 ---
-        title_label = QLabel("微喷带生产线")
+        title_label = QLabel("网络数据信息")
         title_label.setStyleSheet("font-size: 28pt; font-weight: bold; color: white;")
         
-        subtitle_label = QLabel("智能排程与调度控制系统")
+        subtitle_label = QLabel("安全防火墙配置管理系统")
         subtitle_label.setStyleSheet("font-size: 18pt; color: #B0BEC5; padding-bottom: 20px;")
         
         separator = QFrame()
@@ -44,7 +44,7 @@ class LoginDialog(QDialog):
         # 使用科技绿作为强调色
         separator.setStyleSheet("background-color: #00C853; height: 3px; border: none;")
 
-        description_label = QLabel("基于数字孪生与智能算法，\n实现生产计划的最优化与\n生产过程的透明化管理。")
+        description_label = QLabel()
         description_label.setWordWrap(True)
         description_label.setStyleSheet("font-size: 11pt; color: #78909C; padding-top: 20px; line-height: 1.5;")
         

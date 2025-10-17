@@ -160,7 +160,7 @@ class PageDashboard(QWidget):
         # 规则3: 计划本身可能存在问题
         elif data['plan_achievement_rate'] < 0.85 and data['oee'] > 85:
             bottleneck = "计划达成率低，但设备效率正常"
-            suggestion = "瓶颈可能在于上游的'排程'或'物料'环节。请检查'智能排程工作台'是否排程过于紧张，或'资源与物料协同'页面是否存在物料短缺预警。"
+            suggestion = "瓶颈可能在于上游的'排程'或'物料'环节。请检查'安全排程管理'是否排程过于紧张，或'安全信息管理'页面是否存在物料短缺预警。"
         
         self.bottleneck_label.setText(bottleneck)
         self.suggestion_label.setText(suggestion)
